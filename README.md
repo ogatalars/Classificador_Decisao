@@ -44,7 +44,13 @@ import (
 )
 
 func main() {
-	fmt.Println(Classificador_Decisao.Decision_Classifier("CONDOMÍNIO. COBRANÇA. [...]. RECURSO PROVIDO.", "0", "NoWhere"))
+
+	summary := "PROCESSUAL CIVIL. AGRAVO INERNO NO RECURSO ESPECIAL. AÇÃO DE COMPENSAÇÃO POR DANO MORAL E REPARAÇÃO POR DANO MATERIAL. DANO MORAL. OCORRÊNCIA. LONGO ATRASO NA ENTREGA DE IMÓVEL. 1. Ação de compensação por dano moral e reparação por dano material. 2. Cabimento de compensação por danos morais em virtude de longo atraso na entrega de imóvel. Precedentes. 3. Agravo interno no recurso especial não provido."
+	id := "0"
+	court := "STJ"
+
+	test := Classificador_Decisao.Decision_Classifier(summary, id, court)
+	fmt.Println(test.Class)
 }
 
 
