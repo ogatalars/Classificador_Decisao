@@ -40,12 +40,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/Darklabel91/Decision_Classifier/Classifier"
+	"github.com/Darklabel91/Classificador_Decisao"
 )
 
 func main() {
-	fmt.Println(Classifier.Decision_Classifier("CONDOMÍNIO. COBRANÇA. [...]. RECURSO PROVIDO.", "0", "NoWhere"))
+	fmt.Println(Classificador_Decisao.Decision_Classifier("CONDOMÍNIO. COBRANÇA. [...]. RECURSO PROVIDO.", "0", "NoWhere"))
 }
+
 
  ```
 Retorno
