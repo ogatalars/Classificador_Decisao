@@ -2,7 +2,7 @@
 Projeto pensado para classificar as ementas de decisões extraídas das páginas dos tribunais de justiça de todo país.
 
 ## Instal
-``` go get github.com/Darklabel91/Decision_Classifier ```
+``` go get github.com/Darklabel91/Classificador_Decisao ```
 
 ## Data Struct
 Os dados de retorno podem ser ```bool```, ```string``` ou ```Infered_decision```, essa última é composta por:
